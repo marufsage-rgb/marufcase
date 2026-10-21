@@ -1,0 +1,18 @@
+{
+  "package": "Oman_AI_Case_Guardian_v3_MarufEdge_FIXED_FINAL",
+  "fresh_rebuild": true,
+  "php_syntax_checked": true,
+  "php_files": 19,
+  "approved_emails": [
+    "habiburmaruf@gmail.com",
+    "marufsage@gmail.com",
+    "lion.maruf@gmail.com"
+  ],
+  "primary_runtime": "PHP 8.2+ + MySQL/MariaDB",
+  "adapters": [
+    "firebase",
+    "netlify",
+    "vercel"
+  ],
+  "note": "No API keys or passwords are embedded."
+}

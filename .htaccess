@@ -1,0 +1,9 @@
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^storage/ - [F,L]
+RewriteRule ^config/ - [F,L]
+RewriteRule ^database/ - [F,L]
+<FilesMatch "\.(env|sql|log|bak)$">
+  Require all denied
+</FilesMatch>
